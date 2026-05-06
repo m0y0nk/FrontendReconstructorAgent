@@ -6,9 +6,9 @@ A conversational CLI agent that clones websites by generating fully working HTML
 
 ## 📹 Demo Video
 
-[![Watch the Demo](https://img.shields.io/badge/YouTube-Demo_Video-red?style=for-the-badge&logo=youtube)](YOUR_YOUTUBE_VIDEO_LINK_HERE)
+[![Watch the Demo](https://img.shields.io/badge/YouTube-Demo_Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/ZKAIEl8Viyc?si=mCg1pkR8I4GInWI_)
 
-> **🔗 [Click here to watch the demo on YouTube](YOUR_YOUTUBE_VIDEO_LINK_HERE)**
+> **🔗 [Click here to watch the demo on YouTube](https://youtu.be/ZKAIEl8Viyc?si=mCg1pkR8I4GInWI_)**
 
 ---
 
@@ -30,17 +30,17 @@ A conversational CLI agent that clones websites by generating fully working HTML
 User Input
     │
     ▼
-┌─────────┐     ┌─────────┐     ┌──────────┐
+┌──────────┐     ┌──────────┐     ┌──────────┐
 │  main.py │────▶│ agent.py │────▶│  llm.py  │
 │  (CLI)   │     │  (Loop)  │     │ (NVIDIA) │
-└─────────┘     └────┬─────┘     └──────────┘
-                     │
-                     ▼
-               ┌──────────┐
-               │ tools.py  │
-               │ (Browser, │
+└──────────┘     └────┬─────┘     └──────────┘
+                      │
+                      ▼
+               ┌────────────┐
+               │ tools.py   │
+               │ (Browser,  │
                │  FS, Shell)│
-               └──────────┘
+               └────────────┘
 ```
 
 ### Agent Loop
@@ -150,7 +150,7 @@ The agent uses the `google/gemma-3n-e2b-it` model by default. You can change thi
 | Criterion | Marks | Status |
 |-----------|-------|--------|
 | GitHub Repository | 2 | ✅ |
-| YouTube Demo Video | 2 | 🔗 [Link](YOUR_YOUTUBE_VIDEO_LINK_HERE) |
+| YouTube Demo Video | 2 | 🔗 [Link](https://youtu.be/ZKAIEl8Viyc?si=mCg1pkR8I4GInWI_) |
 | Agent Loop & Reasoning | 2 | ✅ ReAct loop with THINK/TOOL/OBSERVE |
 | Quality of Cloned Website | 2 | ✅ Header + Hero + Footer |
 | Code Quality & Documentation | 2 | ✅ Modular, documented, clean |
