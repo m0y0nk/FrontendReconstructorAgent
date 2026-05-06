@@ -2,8 +2,6 @@
 
 A conversational CLI agent that clones websites by generating fully working HTML, CSS, and JavaScript files — powered by NVIDIA's Gemma AI model.
 
-> Built as part of **Assignment 02 — AI Agent CLI Tool**
-
 ## 📹 Demo Video
 
 [![Watch the Demo](https://img.shields.io/badge/YouTube-Demo_Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/ZKAIEl8Viyc?si=mCg1pkR8I4GInWI_)
